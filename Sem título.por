@@ -1,16 +1,18 @@
 programa {
   funcao inicio() {
-    inteiro n1
-    inteiro n2
-  inteiro soma
-    
-    escreva("digite o numero:")
-    leia(n1)
-    escreva("digite o numero:")
-    leia(n2)
+  real a,b,soma, sub,mult,div
 
-    soma = n1+n2
+escreva("digite o primeiro numero: ")
+leia (a)
 
-    escreva("a soma de", n1, "+", n2, "é igual a ", soma)
+escreva("digite o segundo numero: ")
+leia(b)
+
+soma = a + b // soma os dois valores 
+sub = a - b // subtrai os dois valores
+mult = a * b // multiplica os dois valores
+div = a / b // divide os dois valores 
+
+escreva("nA soma dos numeros é igual a: ", soma)
   }
 }
